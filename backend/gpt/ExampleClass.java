@@ -5,7 +5,7 @@ public class ExampleClass {
     static public String name;
     static public String nonIdeas;
 
-    static public String comutePI() {
+    static public String computePI() {
         return "3.14159";
     }
 
