@@ -29,7 +29,7 @@ public class WebServer {
                 new InputStreamReader(clientSocket.getInputStream()));
         String inputLine, outputLine;
         while ((inputLine = in.readLine()) != null) {
-            System.out.println("Recibí: " + inputLine);
+            System.out.println(inputLine);
             if (!in.ready()) {
                 break;
             }
